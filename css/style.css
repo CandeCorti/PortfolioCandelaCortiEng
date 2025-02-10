@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Shippori+Mincho:wght@400;500;600;700;800&display=swap');
+
+
+
+
+.navbar{
+background-color: red;
+}
+
+.navbar-brand{
+    font-family: "Shippori Mincho", serif;
+}
+
+
+header {
+    height: 100px;
+    
+  }
+
+
+body{
+
+  font-family: "Mulish", serif;
+}
+footer {
+   
+  background-color: black;
+  color: white;
+  font-family: "Mulish", serif;
+}
+
+@media (max-width: 768px) {
+  #home-header{
+    display: none;
+  }
+
+  .card-container-home{
+    gap: 1rem;
+    height: fit-content !important;
+    width: calc(100% + 12px);
+  }
+
+.card-home{
+  margin: 0 0 0 12px!important;
+}
+
+.perfil-cv{
+  height: fit-content;
+  background-color: white;
+}
+
+.cv-footer{
+  margin-top: 0 !important;
+}
+
+.header-cv{
+  height: fit-content !important;
+}
+
+.main-title-cv{
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+.section-footer-portfolio{
+  margin:0 !important;
+}
+
+.img-portfolio{
+  height: 600px !important; /*Para que no haya tanto contraste con el ancho*/
+  width: 100%;
+  object-fit: contain; /* Mantiene la imagen dentro del contenedor sin deformarla */
+}
+}
